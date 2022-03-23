@@ -37,7 +37,7 @@
 }
 
 .Navbar nav ul a:hover{
-  color: rgba(146, 204, 206, 1);
+  color: rgb(215, 228, 228);
   decoration: underline;
 }
 
