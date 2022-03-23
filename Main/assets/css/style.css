@@ -36,13 +36,16 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.Navbar nav ul a:hover{
+  color: rgba(146, 204, 206, 1);
+  decoration: underline;
+}
+
 #listdetails  {
   display: flex;
   justify-content: space-between;
   background-color: rgba(146, 204, 206, 1);
   background-position: center;
-  flex-grow: 3;
-  flex: hover;
   margin-bottom: 2rem;
 }
 
@@ -86,17 +89,39 @@
   margin-left: 7em;
   /* font-style: 4rem; */
   font-size: 2.7em;
-  /* background-color: rgba(0, 0, 0, 0.3); */
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .details img {
   height: 500px;
-  width:  350px
-  /* border-top-left-radius: 0em; */
-  margin: 5em;
+  width:  350px;
   size: 100%;
   text-align: right;
 }
+
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+  flex-direction: row;
+  
+}
+
+footer div a {
+  position: relative;
+  padding: 0 4em 0 0;
+  Font-size: 2.5em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+  text-decoration: none;
+  color: rgb(29, 73, 112);
+}
+
+footer div a:hover {
+  color:aqua;
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 768px) {
   flex-wrap: wrap;
 }
