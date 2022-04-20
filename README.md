@@ -6,7 +6,7 @@
 
 
 
-<h3>This is the 1st draft of my portfolio.
+<h3>This is the updated draft of of my portfolio to include the recent project and homework. .
 
 <br>
 
@@ -17,5 +17,7 @@
 <li>Travis Cook (TA)
 <li>Abdullah Al Hilfi (Tutor)
 <li>James Edwards
+  
+  https://github.com/Jaspertena/Lernantio
 
 
